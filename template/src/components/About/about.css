@@ -4,12 +4,12 @@
     flex-direction: column;
     align-items:end;
     padding-right: 10%;
-    padding-top: 12%;
 }
 .firstWrapper{
     display: inline-block;
     max-width: 40%;
     text-align: justify;
+    margin-top: 10%;
 }
 .aboutText{
     margin-bottom: 1.5%;

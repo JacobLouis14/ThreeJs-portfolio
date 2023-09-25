@@ -31,7 +31,7 @@ const About = () => {
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 1.5 }}
         className="firstWrapper"
       >
         <p className="aboutText" style={{ fontWeight: 200 }}>

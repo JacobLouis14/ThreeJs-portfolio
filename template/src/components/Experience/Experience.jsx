@@ -10,7 +10,7 @@ const ProjectCards = ({ name, description, image, index }) => {
       whileInView={{
         y: 0,
         opacity: 1,
-        transition: { duration: 1, delay: 1 * index },
+        transition: { duration: 1, delay: 0.5 * index },
       }}
       whileHover={{ scale: 1.05, transition: { duration: 0.1 } }}
       className="projectContainer"
