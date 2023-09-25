@@ -1,0 +1,62 @@
+.container {
+    height: 100vh;
+
+}
+.expHeaderWrapper{
+    padding-top: 8%;
+    padding-left: 5%;
+}
+.expContentContainer{
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.projectContainer{
+    max-width: 20%;
+    height: 10%;
+    padding: 1%;
+    background-color: #1c1854;
+    border-radius: 20px;
+}
+.expImgContainer{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 150px;
+}
+.image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.expDataContainer{
+    margin-top: 10%;
+    overflow: scroll;
+    height: 200px;
+}
+
+@media (max-width: 1200px){
+    .expContentContainer{
+        display: flex;
+    }
+    .projectContainer{
+        max-width: 35%;
+        height: 30%;
+    }
+    .expDataContainer{
+        max-height: 100px;
+        overflow: scroll;
+        padding-left: 2%;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .projectContainer{
+        margin-top: 5%;
+        max-width: 45%;
+    }
+}

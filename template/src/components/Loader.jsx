@@ -6,12 +6,9 @@ const Loader = () => {
 
   return (
     <Html>
-      <span className="loader-span">
+      <span >
         <p style={{
           fontWeight: 'bold',
-          backgroundColor: 'rgba(145, 94, 255, 0.2)',
-          padding: 10,
-          borderRadius: 10,
         }}>
           {progress.toFixed(2)}%
         </p>

@@ -1,8 +1,4 @@
-.container{
+.appContainer{
     position: relative;
-    background-color: black;
-}
-.footer{
-    position: relative;
-    z-index: 0;
+    height: 100vh;
 }
